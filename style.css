@@ -1,0 +1,297 @@
+body{
+	font-family: 				'Open Sans', sans-serif;
+	background: 				url(images/bg-image.jpg) no-repeat center center fixed;
+	background-size: 			cover;
+	-webkit-background-size: 	cover;
+	-moz-background-size: 		cover;
+	-o-background-size: 		cover;
+
+}
+
+#wrapper{
+	width: 				980px;
+	margin-top:			10px;
+	margin: 		  	0 auto;
+	background-color: 	#fff;
+}
+
+#header{
+	position: relative;
+	margin-top: 80px;
+	
+}
+
+#logo{
+	float: left;
+	width: 260px;
+	padding: 20px;
+}
+
+#menu{
+	float:left;
+	width:680px;
+
+}
+
+#socialLinks{
+	position: absolute;
+	top: -64px;
+	right: 0;
+}
+
+.clearFix{
+	clear:both;
+}
+
+#menu ul{
+	list-style-type: none;
+	margin:	0;
+	padding: 0;
+	float:	right;
+}
+
+#menu ul li{
+	float: left;
+}
+
+#menu ul li a{
+	display: inline-block;
+	color:#000;
+	font-weight: 700;
+	text-align: center;
+	padding:48px 24px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.itemGray{
+	background-color: #ececec
+}
+
+#menu ul li a:hover{
+	background-color: #0b559e;
+	color:#fff;
+
+}
+
+
+
+#socialLinks ul{
+	list-style-type: none;	
+	margin: 0;
+	padding: 0;
+}
+
+#socialLinks ul li{
+	float: left;
+} 
+
+#banner{
+	position: relative;
+	background: url(images/banner.jpg) no-repeat center	0 fixed;
+	width: 	980px;
+	height:	380px;
+}
+
+#banner #bannerDescription{
+	position: absolute;
+	top:125px;
+	padding: 10px 20px;
+	background-color: grey;
+	letter-spacing: -1px;
+	color: #fff;
+}
+
+#bannerDescription h1{
+	margin: 0;
+	font-weight: 700;
+	font-size:60px;
+	text-transform: uppercase;
+}
+
+#bannerDescription p{
+	margin: 0;
+	font-weight: 400;
+	font-style: italic;	
+	font-size: 24px;
+}
+
+h2{
+	border-bottom: 1px dotted #0b559e;
+	margin: 12px 200px 50px 200px;
+	text-align: center;
+}
+
+h2 span{
+	position: relative;
+	display: inline-block;
+	background-color: #fff;
+	padding: 0 20px;
+	color: #0b559e;
+	font-size: 32px;
+	top: 20px;
+	font-weight: 700;
+}
+
+#services .box{
+	float:left;
+	width: 245px;
+	height: 164px;
+
+}
+
+#services .box .description{
+	margin: 20px;
+
+}
+
+#services .box .description p{
+	color:#6b6b6b;
+	font-weight: lighter;
+	font-size: 12px;
+}
+
+#photogallery .galleryItem{
+  float: left;
+  position: relative;
+}
+
+#photogallery .galleryItem1x1{
+	width:  245px;
+	height: 164px;
+}
+
+
+
+#photogallery .galleryItem2x1{
+	width:  490px;
+	height: 164px;
+}
+
+
+
+
+#photogallery .galleryItem2x2{
+	width:  490px;
+	height: 328px;
+}
+
+
+#photogallery .galleryItem p {
+  position: absolute;
+  display: none;  
+  background-color: #0b559e;
+  text-align: center;
+  color: #fff;
+  bottom: 0;
+  margin: 0 auto; 
+  height: 40px;
+  font-size: 20px;
+  padding-top: 10px; 
+  width: 100%;
+}
+
+#photogallery .galleryItem:hover p{
+	display: block;
+}
+
+#priceList .priceListPicture{
+	width: 400px;
+	height: 218px;
+	float: right;
+}
+
+#priceList{
+	margin:	0 20px;
+}
+
+#priceList table{
+	width: 500px;
+	float: left;
+	border-collapse:collapse;
+}
+
+#priceList table td{
+	border:1px solid black;
+}
+
+#priceList table tr th{
+	text-align: left;
+	border-bottom: 2px solid grey;
+}
+
+#priceList table tr:last-child td{
+	border-bottom: 0;
+}
+
+#priceList table tr td:first-child {
+	border-left: 0;
+}
+
+#priceList table tr td:last-child,
+#priceList table tr th:first-child{
+	border-right: 0;
+	text-align: center;
+}
+
+#contact .box{
+	float:left;
+	width: 490px;
+	height: 490px;
+}
+
+#contact .box hr{
+	margin:20px;
+}
+
+#contact .box hr:first-child{
+	margin-top:0;
+}
+
+#contact h3{
+	padding-left:15px;
+	font-size:28px;
+	margin: 0;
+}
+
+#contact .contactItem{
+	padding-left:55px;
+	font-size:48px;
+	font-weight: bold;
+
+}
+
+#contact .contactOpenHours{
+text-align: center;
+}
+
+#footer{
+	display: table-cell;
+	width: 980px;
+	height: 100px;
+	background-color: #000;
+	color: #fff;
+	font-size: 11px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+a{
+	color: #0b559e;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+
+#arrowToTop{
+	position:fixed;
+	width: 	32px;
+	height: 32px;
+	bottom: 20px;
+	right:	100px;
+}
+
+
+
